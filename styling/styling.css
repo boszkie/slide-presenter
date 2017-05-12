@@ -1,10 +1,11 @@
+/**
+ * general style stuff
+ */
 * {
-  font-family: "Verdana";
-}
+  font-family: "Verdana"; }
 
 body, table {
-  line-height: 1;
-}
+  line-height: 1; }
 
 #menu {
   position: fixed;
@@ -14,36 +15,31 @@ body, table {
   color: #00F;
   border: 2px solid #77B;
   margin: 10px;
-  padding: 4px;
-}
-
-#menu a {
-  text-decoration: none;
-}
+  padding: 4px; }
+  #menu a {
+    text-decoration: none; }
 
 th, td {
-  border: 1px solid;
-}
+  border: 1px solid; }
+
 th {
-  text-align: left;
-}
+  text-align: left; }
+
 td.count {
-  text-align: center;
-}
-div.code {
+  text-align: center; }
+
+div code {
   width: 70%;
   background: #DDD;
   color: #33A;
   padding: 10px;
   margin: 10px 0px;
-  border: 2px solid #77B;
-}
-div.display {
+  border: 2px solid #77B; }
+div display {
   width: 70%;
   background: #FFF;
   color: #77B;
   font-weight: bold;
   padding: 10px;
   margin: 10px 0px;
-  border: 2px solid #77B;
-}
+  border: 2px solid #77B; }
