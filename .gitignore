@@ -1,11 +1,5 @@
-content/page_1.php
-content/page_2.php
-content/page_3.php
-content/page_4.php
-content/page_5.php
-content/page_6.php
-content/page_7.php
-content/page_8.php
-content/page_9.php
-content/page_10.php
-nbproject/*
+content
+nbproject
+styling
+.sass-cache
+
