@@ -1,0 +1,66 @@
+/**
+ * general style stuff
+ */
+$font:             "Verdana";
+$background-color: #DDD;
+$color:            #00F;
+$borders:          2px solid #77B;
+$table-borders:    1px solid;
+$margin:           10px;
+$padding:          4px;
+
+* {
+    font-family: $font;
+}
+
+body, table {
+    line-height: 1;
+}
+
+#menu {
+    position:   fixed;
+    right:      0px;
+    bottom:     0px;
+    background: $background-color;
+    color:      $color;
+    border:     $borders;
+    margin:     $margin;
+    padding:    $padding;
+
+    a {
+        text-decoration: none;
+    }
+}
+
+th, td {
+    border: $table-borders;
+}
+
+th {
+    text-align: left;
+}
+
+td.count {
+    text-align: center;
+}
+
+div {
+    code {
+        width: 70%;
+        background: #DDD;
+        color: #33A;
+        padding: 10px;
+        margin: 10px 0px;
+        border: 2px solid #77B;
+    }
+
+    display {
+        width: 70%;
+        background: #FFF;
+        color: #77B;
+        font-weight: bold;
+        padding: 10px;
+        margin: 10px 0px;
+        border: 2px solid #77B;
+    }
+}
